@@ -1,0 +1,159 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #666;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  margin: 0;
+  padding: 0;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #474747;
+  margin-bottom: 1.75rem;
+}
+
+a {
+  color: #081d3f;
+}
+
+a, a:hover, a:focus {
+  color: #014c8c;
+  text-decoration: none;
+}
+
+.contact {
+  background: #f3f3f3;
+  padding: 2.8rem 0;
+}
+
+.contact--headline {
+  color: #081d3f;
+  font-size: 2.5rem;
+}
+
+.hero {
+  background: url('images/DJI_0221-web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+  height: 500px;
+}
+
+.hero--content {
+  margin-top: 20rem;
+}
+
+.hero--button {
+  background: #081d3f;
+  border: 1px solid #081d3f;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px #000;
+  color: #fff;
+  font-size: 2rem;
+  outline: none;
+  padding: 11px 20px;
+  transition: ease all 0.3s;
+}
+
+.hero--headline {
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 2.75rem;
+  text-shadow: 4px 4px 6px #000;
+}
+
+.hero--header-button {
+  background: #081d3f;
+  border: none;
+  color: #fff;
+  float: right;
+  outline: none;
+  padding: .5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.hero--header-button:hover, .hero--header-button:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+#gallery {
+  padding: 2rem 0;
+}
+
+.gallery--button:focus, .gallery--button:hover, .hero--button:hover, .hero--button:focus {
+  outline: none;
+}
+
+.gallery--button:hover {
+  background: #fff;
+  color: #081d3f;
+}
+
+.gallery--thumb {
+  border-radius: 5px;
+  margin-right: 1.6rem;
+  margin-top: 1.6em;
+  width: 200px;
+}
+
+.page {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section--title {
+  background: #081d3f;
+  padding: 1.6rem 0;
+}
+
+.section--title--heading {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.section--heading {
+  font-size: 3rem;
+}
+
+@media screen and (max-width:769px) {
+
+  .contact--headline {
+    margin-top: 2rem;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero--content {
+    margin-top: 12rem;
+  }
+
+  .hero--headline {
+    font-size: 3rem;
+  }
+
+  .gallery--thumb {
+    width: 210px;
+  }
+
+  .section--title--heading {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width:537px) {
+
+  .gallery--thumb {
+    width: 100%;
+  }
+
+}
