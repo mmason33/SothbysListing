@@ -4,8 +4,10 @@ html {
 }
 
 body {
+  background: #f3f3f3;
   color: #666;
   font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
   line-height: 2.7rem;
   margin: 0;
   padding: 0;
@@ -25,9 +27,26 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
+.container-fluid.wrap {
+  background: #fff;
+  box-shadow: 0 0 50px #666;
+  max-width:144rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  position: relative;
+  top: 450px;
+  z-index: 2;
+}
+
+.section--content, #gallery, .gallery--title {
+  padding: 3rem;
+}
+
 .contact {
   background: #f3f3f3;
-  padding: 2.8rem 0;
+  padding: 2.8rem 1rem;
 }
 
 .contact--headline {
@@ -36,18 +55,21 @@ a, a:hover, a:focus {
 }
 
 .hero {
-  background: url('images/DJI_0221-web.jpg');
+  background: url('images/header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 50%;
   height: 500px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .hero--content {
   margin-top: 20rem;
 }
 
-.hero--button {
+/*.hero--button {
   background: #081d3f;
   border: 1px solid #081d3f;
   border-radius: 5px;
@@ -57,12 +79,15 @@ a, a:hover, a:focus {
   outline: none;
   padding: 11px 20px;
   transition: ease all 0.3s;
-}
+}*/
 
 .hero--headline {
   color: #fff;
-  font-size: 5rem;
+  font-size: 7rem;
+  font-weight: 600;
+  font-family: 'Petit Formal Script', cursive;
   margin-bottom: 2.75rem;
+  text-align: center;
   text-shadow: 4px 4px 6px #000;
 }
 
@@ -123,6 +148,12 @@ a, a:hover, a:focus {
   font-size: 3rem;
 }
 
+@media screen and (max-width:1440px) {
+  .container-fluid.wrap {
+    margin: 0 1.5rem 3rem 1.5rem;
+  }
+}
+
 @media screen and (max-width:769px) {
 
   .contact--headline {
@@ -147,6 +178,14 @@ a, a:hover, a:focus {
 
   .section--title--heading {
     font-size: 2.25rem;
+  }
+
+  .gallery--title, #gallery, .section--content {
+    padding: 1.5rem;
+  }
+
+  .container-fluid.wrap {
+    top: 270px;
   }
 }
 
