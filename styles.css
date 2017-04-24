@@ -58,7 +58,7 @@ a, a:hover, a:focus {
   background: url('images/header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 50%;
+  background-position: center 40%;
   height: 500px;
   position: fixed;
   width: 100%;
@@ -84,8 +84,7 @@ a, a:hover, a:focus {
 .hero--headline {
   color: #fff;
   font-size: 7rem;
-  font-weight: 600;
-  font-family: 'Petit Formal Script', cursive;
+  font-weight: 300;
   margin-bottom: 2.75rem;
   text-align: center;
   text-shadow: 4px 4px 6px #000;
