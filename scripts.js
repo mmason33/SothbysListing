@@ -10,7 +10,12 @@ $(document).ready(function() {
     });
 
     $(window).scroll(function(){
-      $(".hero").css("opacity", 1 - $(window).scrollTop() / 250);
+      $(".hero").css("opacity", 1 - $(window).scrollTop() / 600);
+      $('.hero--headline').css({
+        'position' : 'relative',
+        'top' : 1 + $(window).scrollTop() / 10,
+        'left' : 0
+      });
     });
 
 });
